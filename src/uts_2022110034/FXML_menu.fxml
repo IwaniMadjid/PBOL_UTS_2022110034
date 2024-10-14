@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_2022110034.FXML_menuController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="mainAnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="651.0" prefWidth="1035.0">
+         <children>
+            <MenuBar layoutX="7.0" layoutY="7.0" prefHeight="27.0" prefWidth="1020.0">
+               <menus>
+                  <Menu mnemonicParsing="false" text="Master">
+                     <items>
+                        <MenuItem fx:id="mnumenu" mnemonicParsing="false" onAction="#mastermenuklik" text="menu" />
+                        <MenuItem fx:id="mnukaryawan" mnemonicParsing="false" onAction="#masterkaryawanklik" text="karyawan" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Transaksi">
+                     <items>
+                        <MenuItem fx:id="mnutransaksi" mnemonicParsing="false" onAction="#transaksiklik" text="Penilaian" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Display">
+                     <items>
+                        <MenuItem fx:id="mnudisplaytrans" mnemonicParsing="false" onAction="#displaytransklik" text="Transaksi" />
+                        <MenuItem fx:id="mnudisplaymenu" mnemonicParsing="false" onAction="#displaymenuklik" text="menu" />
+                        <MenuItem fx:id="mnudisplaykaryawan" mnemonicParsing="false" onAction="#displaykaryawanklik" text="karyawan" />
+                        <MenuItem fx:id="mnudisplaybooth" mnemonicParsing="false" onAction="#displayboothklik" text="booth" />
+                        <MenuItem fx:id="mnudisplaybeli" mnemonicParsing="false" onAction="#displaybeliklik" text="Beli" />
+                        <MenuItem fx:id="mnudisplaysupplier" mnemonicParsing="false" onAction="#displaysupllierklik" text="Supplier" />
+                        <MenuItem fx:id="mnudisplaybbsj" mnemonicParsing="false" onAction="#displaybbsjklik" text="Bahan Baku Setengah Jadi" />
+                        <MenuItem fx:id="mnudisplaybb" mnemonicParsing="false" onAction="#displaybbklik" text="Bahan Baku" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Keluar">
+                     <items>
+                        <MenuItem fx:id="mnukeluar" mnemonicParsing="false" onAction="#keluarclick" text="Keluar" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
