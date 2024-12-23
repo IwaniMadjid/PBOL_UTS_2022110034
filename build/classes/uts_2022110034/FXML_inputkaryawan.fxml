@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uts_2022110034.FXML_inputkaryawanController">
+   <children>
+      <Button fx:id="btnkeluar" layoutX="426.0" layoutY="312.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+      <Button fx:id="btnbatal" layoutX="275.0" layoutY="312.0" mnemonicParsing="false" onAction="#batalklik" text="Hapus" />
+      <Button fx:id="btnsimpan" layoutX="122.0" layoutY="312.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <TextField fx:id="txtnamakaryawan" layoutX="263.0" layoutY="87.0" />
+      <TextField fx:id="txtidkaryawan" layoutX="263.0" layoutY="34.0" />
+      <Label layoutX="94.0" layoutY="93.0" text="Nama Karyawan" />
+      <Label layoutX="94.0" layoutY="40.0" text="ID Karyawan" />
+      <Label layoutX="94.0" layoutY="142.0" text="Alamat" />
+      <Label layoutX="94.0" layoutY="194.0" text="Kontak" />
+      <TextField fx:id="txtalamat" layoutX="263.0" layoutY="136.0" />
+      <TextField fx:id="txtkontak" layoutX="263.0" layoutY="188.0" />
+   </children>
+</AnchorPane>

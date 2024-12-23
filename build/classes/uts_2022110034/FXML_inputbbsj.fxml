@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uts_2022110034.FXML_inputbbsjController">
+   <children>
+      <Button fx:id="btnkeluar" layoutX="407.0" layoutY="237.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+      <Button fx:id="btnbatal" layoutX="256.0" layoutY="237.0" mnemonicParsing="false" onAction="#batalklik" text="Hapus" />
+      <Button fx:id="btnsimpan" layoutX="103.0" layoutY="237.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <TextField fx:id="txtnamabbsj" layoutX="242.0" layoutY="130.0" />
+      <TextField fx:id="txtbbsj" layoutX="242.0" layoutY="62.0" />
+      <Label layoutX="24.0" layoutY="136.0" text="Nama Bahan Baku 1/2 Jadi" />
+      <Label layoutX="24.0" layoutY="68.0" text="ID Bahan Baku 1/2 Jadi" />
+   </children>
+</AnchorPane>
