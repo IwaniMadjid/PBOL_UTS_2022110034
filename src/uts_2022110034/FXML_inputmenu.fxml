@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uts_2022110034.FXML_inputmenuController">
+   <children>
+      <Button fx:id="btnkeluar" layoutX="446.0" layoutY="332.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+      <Button fx:id="btnbatal" layoutX="295.0" layoutY="332.0" mnemonicParsing="false" onAction="#batalklik" text="Hapus" />
+      <Button fx:id="btnsimpan" layoutX="142.0" layoutY="332.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <TextField fx:id="txtidbooth" layoutX="283.0" layoutY="107.0" />
+      <TextField fx:id="txtidmenu" layoutX="283.0" layoutY="54.0" />
+      <Label layoutX="114.0" layoutY="113.0" text="ID Booth" />
+      <Label layoutX="115.0" layoutY="60.0" text="ID Menu" />
+      <Label layoutX="114.0" layoutY="162.0" text="Nama Menu" />
+      <Label layoutX="114.0" layoutY="214.0" text="Harga" />
+      <TextField fx:id="txtnamamenu" layoutX="283.0" layoutY="156.0" />
+      <TextField fx:id="txtharga" layoutX="283.0" layoutY="208.0" />
+   </children>
+</AnchorPane>

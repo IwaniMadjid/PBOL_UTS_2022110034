@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uts_2022110034.FXML_displaytransController">
+   <children>
+      <Button fx:id="btnkeluar" layoutX="532.0" layoutY="251.0" mnemonicParsing="false" onAction="#keluarclick" text="Keluar" />
+      <Button fx:id="btnubah" layoutX="469.0" layoutY="251.0" mnemonicParsing="false" onAction="#ubahclick" text="Ubah" />
+      <Button fx:id="btnhapus" layoutX="390.0" layoutY="251.0" mnemonicParsing="false" onAction="#hapusclick" text="Hapus" />
+      <Button fx:id="btntambah" layoutX="310.0" layoutY="251.0" mnemonicParsing="false" onAction="#tambahclick" text="Tambah" />
+      <Button fx:id="btnakhir" layoutX="241.0" layoutY="251.0" mnemonicParsing="false" onAction="#akhirclick" text="Akhir" />
+      <Button fx:id="btnsesudah" layoutX="162.0" layoutY="251.0" mnemonicParsing="false" onAction="#sesudahclick" text="Sesudah" />
+      <Button fx:id="btnsebelum" layoutX="84.0" layoutY="251.0" mnemonicParsing="false" onAction="#sebelumclick" text="Sebelum" />
+      <Button fx:id="btnawal" layoutX="24.0" layoutY="251.0" mnemonicParsing="false" onAction="#awalclick" text="Awal" />
+      <TableView fx:id="tbvtrans" layoutX="24.0" layoutY="30.0" prefHeight="200.0" prefWidth="549.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
